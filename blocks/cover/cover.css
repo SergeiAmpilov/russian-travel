@@ -1,0 +1,13 @@
+.cover {
+    margin-top: 92px;
+
+    width: 100%;
+    background-color: green;
+    padding: 245px 0;
+
+    background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/cover-trains.jpg);
+    background-position: top;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+
+}
