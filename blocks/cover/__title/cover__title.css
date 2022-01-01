@@ -8,4 +8,7 @@
     color: white;
     max-width: 560px;
     text-align: center;
+
+    position: relative;
+    z-index: 3;
 }

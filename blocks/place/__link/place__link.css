@@ -2,8 +2,15 @@
     color: white;
     font-size: 1.12rem;
     line-height: 1.22;
+
+    opacity: 1;
+    transition: opacity 1s linear;
 }
 
 .place__link:visited {
     color: white;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }
