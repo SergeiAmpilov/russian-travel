@@ -1,0 +1,11 @@
+.intro__text {
+    margin: 40px 0 0 8.5%;
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.62;
+
+    max-width: 690px;
+}

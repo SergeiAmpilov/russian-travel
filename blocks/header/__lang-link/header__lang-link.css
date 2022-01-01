@@ -1,0 +1,10 @@
+.header__lang-link {
+    color: #FFF;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.header__lang-link:first-child {
+    margin-right: 18px;
+}
