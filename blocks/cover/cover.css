@@ -42,3 +42,11 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+    .cover {
+        left: -3.75%;
+        width: 100vw;
+
+        padding: 15vw 0;
+    }
+}
