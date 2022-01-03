@@ -2,3 +2,20 @@
     margin: 64px 8.5% 0;
     width: 83%;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 100%;
+        margin: 64px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100vw;
+        margin: 64px 0 0;
+
+        position: relative;
+        left: -3.74%;
+    }
+}
