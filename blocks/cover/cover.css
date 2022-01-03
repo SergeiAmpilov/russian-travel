@@ -15,7 +15,7 @@
 
 .cover:hover:after {
     content: '';
-    background: rgba(42, 44, 47, 0.8); // фон с прозрачностью 70%
+    background: rgba(42, 44, 47, 0.8);
     display: block;
     position: absolute;
     width: 100%;
@@ -29,7 +29,7 @@
 
 .cover:after {
     content: '';
-    background: rgba(42, 44, 47, 0.3); // фон с прозрачностью 70%
+    background: rgba(42, 44, 47, 0.3);
     display: block;
     position: absolute;
     width: 100%;
