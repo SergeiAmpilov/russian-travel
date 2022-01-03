@@ -12,3 +12,10 @@
     color: white;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 510px) {
+    .footer__link {
+        font-size: 1.5rem;
+    }
+}
