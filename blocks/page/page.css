@@ -158,3 +158,10 @@
     max-width: 1184px;
     margin: auto;
 }
+
+@media screen and (max-width: 1280px) {
+    .page {
+        max-width: 92.5%;
+    }
+}
+
