@@ -8,3 +8,10 @@
 .header__lang-link:first-child {
     margin-right: 18px;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 1.12rem;
+        line-height: 1.11;
+    }
+}

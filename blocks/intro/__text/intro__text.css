@@ -9,3 +9,9 @@
 
     max-width: 690px;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        margin: 40px 0 0 0;
+    }
+}
