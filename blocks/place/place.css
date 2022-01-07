@@ -1,14 +1,14 @@
 .place {
     margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 
     gap: 48px 40px;
 }
 
 @media screen and (max-width: 1280px) {
     .place {
-        gap: 3.75vw 3.1vw ;
+        gap: 3.75vw 3.1vw;
     }
 }
 
