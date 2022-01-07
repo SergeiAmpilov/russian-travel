@@ -13,6 +13,7 @@
 
 }
 
+
 .cover__content:hover:after {
     content: '';
     background: rgba(42, 44, 47, 0.8);
@@ -44,7 +45,9 @@
 
 @media screen and (max-width: 1024px) {
     .cover__content {
-        left: -3.75%;
+        /*left: -3.75%;*/
+        position: relative;
+        left: -48px;
         width: 100vw;
 
         padding: 15vw 0;
@@ -53,12 +56,18 @@
 
 @media screen and (max-width: 768px) {
     .cover__content {
+        position: relative;
+        left: -24px;
+
         margin-top: 90px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__content {
+        position: relative;
+        left: -16px;
+
         margin-top: 66px;
     }
 }
