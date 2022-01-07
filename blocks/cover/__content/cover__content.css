@@ -45,12 +45,11 @@
 
 @media screen and (max-width: 1024px) {
     .cover__content {
-        /*left: -3.75%;*/
         position: relative;
         left: -48px;
         width: 100vw;
 
-        padding: 15vw 0;
+        padding: 19vw 0;
     }
 }
 
