@@ -19,6 +19,12 @@
     }
 }
 
+@media screen and (max-width: 360px) {
+    .place {
+        grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place {
         margin-top: 50px;
