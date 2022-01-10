@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px) {
     .lead__image {
-        width: 100vw;
+        width: calc(100% + 24px + 24px);
         padding-bottom: 62.5vw;
 
         position: relative;
@@ -29,6 +29,7 @@
 
 @media screen and (max-width: 320px) {
     .lead__image {
+        width: calc(100% + 16px + 16px);
         margin: 40px 0 0;
         left: -16px;
     }
